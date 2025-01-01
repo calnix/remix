@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "bytes23",
+						"name": "",
+						"type": "bytes23"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testNFt.sol": "A"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testNFt.sol": {
+			"keccak256": "0xfc3f58da4fb38c5737e8135b57f07a3b54cab09581e735644ad7fea035ead50f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://90418dd403b51c65d64be51b5391da574eb8fed609f815a79424899c7242c830",
+				"dweb:/ipfs/QmQRjoD2joKx5MWrebyMs3UX4gSWTE9EWHYDPWDSK9FGKs"
+			]
+		}
+	},
+	"version": 1
+}

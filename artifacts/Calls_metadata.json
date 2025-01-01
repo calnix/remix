@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testStaticCall.sol": "Calls"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testStaticCall.sol": {
+			"keccak256": "0xd9885e1f1dabf2c7358b5916fd31d39775541494e16f7a7a1e7a8107ff77a529",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ff49b33604efb9af5bb2036962765e9e87e6e90b6c78eb7bf185b4e9ee90e962",
+				"dweb:/ipfs/QmeqtEy527inS6aaJoaWJNNQBqo8EfuqzxxzvfioFDK5G9"
+			]
+		}
+	},
+	"version": 1
+}

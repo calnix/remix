@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "test",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testReturnarrayt.sol": "TestArrayRreturn"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testReturnarrayt.sol": {
+			"keccak256": "0x5e745239460649432f5330e5a292c8ad5624ccdef0697a5afe27c0c63b0f4c67",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fece6b28c9b80bfcd77633177a01ad0e0cb43d8b2fca5aa749a9958aa1e7ac1e",
+				"dweb:/ipfs/QmXeKomY7giUjWeZGvLkR6ii5sNpzVVmzfg1s89xm35Pj9"
+			]
+		}
+	},
+	"version": 1
+}

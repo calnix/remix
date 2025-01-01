@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amountLD",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"name": "_credit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountReceivedLD",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testLZ.sol": "creditLower"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testLZ.sol": {
+			"keccak256": "0xd2729730018db652ff8599e679355343637ecb720c9d061a8c6478f75bfb986c",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4cc962e0b9ed21dd2030d4dab9361197a9d1dcafe42e4c4ced42c8e861ef970c",
+				"dweb:/ipfs/QmX5UEVm2XMJGDoVBocswNicJctS9hFNaNtAoSfc588eK4"
+			]
+		}
+	},
+	"version": 1
+}

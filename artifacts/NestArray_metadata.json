@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ret",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"teststmap.sol": "NestArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"teststmap.sol": {
+			"keccak256": "0x0c8a4b770b49c3addf7e342d39771971167dc16c4a272d698505448f7bb6e848",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://81c81fb22da55c6bd85931a45a9f814cc1f4a6d88ad4e03470e5c0d584c9984c",
+				"dweb:/ipfs/QmeeegfCAQjCLq3EWp3g5HQ919K2y9j6uJUpHAztyg8RgC"
+			]
+		}
+	},
+	"version": 1
+}

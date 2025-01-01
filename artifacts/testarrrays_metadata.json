@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arr2",
+						"type": "uint256[]"
+					}
+				],
+				"name": "_concatArrays",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testconcatarray.sol": "testarrrays"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testconcatarray.sol": {
+			"keccak256": "0xc1efd4c9450862e99d37f280adb057c034e64cbc1c3ad2aa9a616ad2e464976f",
+			"urls": [
+				"bzz-raw://a683de63c531a1ebc36396731b7c09eca5bfbcda0d0e27520d6adea6b3b41846",
+				"dweb:/ipfs/QmPqDUVNWyPot6bKwVzd2wREYcWLBHptSW7RG2x9m1wUUa"
+			]
+		}
+	},
+	"version": 1
+}

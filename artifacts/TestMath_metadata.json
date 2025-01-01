@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testMath.sol": "TestMath"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testMath.sol": {
+			"keccak256": "0x6c1569ea0dc96d4d79772e14aa6ede923790c46c5fe9c4816becbcdcc3acb7ed",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ec22c31976cb68cdca9953bab0b9448d590fdd05b47ba1dbb9ced74dfc15d0d2",
+				"dweb:/ipfs/Qmd4Ve3fBDCL6J5fQN6vKtQfXa5nvk6Pvih8fscpexdNcP"
+			]
+		}
+	},
+	"version": 1
+}

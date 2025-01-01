@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Invalid",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "isOwnerOf",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testStaticCall.sol": "Callee"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testStaticCall.sol": {
+			"keccak256": "0x5023a806cbaaa88ec2648d27d7105d24b9481853c7f5f893cf974da44d7d115b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://279b2925f477fb7c41c6592914ac191f313b2824fadd2db1e94b2f265df45573",
+				"dweb:/ipfs/QmaVLAgfMf7tcwDEM5XhJ9moTVnZ3m6RtTGDBi5izWspun"
+			]
+		}
+	},
+	"version": 1
+}

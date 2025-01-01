@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testEncode",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testEncoding.sol": "Encoding"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testEncoding.sol": {
+			"keccak256": "0xa826248f10dd94a26f1ac4b1440bbc961b2befde685e98f70c314cabb86a74fd",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://0b0e7ec7cc4c97c6ed1751926f34648987e78215d4d245e9cbe26fda4577984e",
+				"dweb:/ipfs/QmZUFBEqyKXqcc3uLd8LDK1UpVknRj1VjzWo7vYq6dK5wg"
+			]
+		}
+	},
+	"version": 1
+}

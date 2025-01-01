@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cast",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testDecimalPrecision.sol": "RouterOnPool"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testDecimalPrecision.sol": {
+			"keccak256": "0x45bab8fd8855a8abddc0d06e7e396013a658b9e794d05149e725c4b1ffc3d14b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ea9c65a4dd93aa9bbe88ed3d5c7af0d462d731a75c749c814ac9d1068f23e3ae",
+				"dweb:/ipfs/QmSsmctHznfameRogBnWSWUvVawC49d1nZYcEmkD45f3sK"
+			]
+		}
+	},
+	"version": 1
+}

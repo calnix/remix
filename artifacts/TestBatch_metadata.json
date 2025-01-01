@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes[]",
+						"name": "calls",
+						"type": "bytes[]"
+					}
+				],
+				"name": "batch",
+				"outputs": [
+					{
+						"internalType": "bytes[]",
+						"name": "results",
+						"type": "bytes[]"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pool",
+				"outputs": [
+					{
+						"internalType": "contract Pool",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "pool_",
+						"type": "address"
+					}
+				],
+				"name": "setPool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"batch(bytes[])": {
+					"details": "Allows batched call to self (this contract).",
+					"params": {
+						"calls": "An array of inputs for each call."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testbatch.sol": "TestBatch"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testbatch.sol": {
+			"keccak256": "0x2041eae1cd357fb045b1901c52175e59aed0e10ed9aef4ec3be34feaed2c20c3",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://71661b2c55af6ac121543adc19919c85985d214a1c44a755502fdf8df63f4a13",
+				"dweb:/ipfs/QmTxtFDaBa9yY4TQzxhLYwFUUS7vHATS5nYMCkNgQnBRKf"
+			]
+		}
+	},
+	"version": 1
+}

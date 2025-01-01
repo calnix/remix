@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "rounds",
+						"type": "uint256[]"
+					}
+				],
+				"name": "strDeposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testStoragePointers.sol": "Test"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testStoragePointers.sol": {
+			"keccak256": "0x00639f06616cfdf3cdb8904d85d31c543d698420885a245a5d107edcd5f003ce",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d95d4113b588e5b05f9a735eaa8b6ad68a6dd00c61eec7182d5dcef614831059",
+				"dweb:/ipfs/QmVq2JKKqYWHjFtKcJoNqEXFcscZAZKvEpZDhff4zSmWnS"
+			]
+		}
+	},
+	"version": 1
+}

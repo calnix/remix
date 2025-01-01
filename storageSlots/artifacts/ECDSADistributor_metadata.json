@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testReturn",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"storageSlots/findSlot.sol": "ECDSADistributor"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"storageSlots/findSlot.sol": {
+			"keccak256": "0xc8302dbbb640075b95495b4b21e664698933a9bc3a0664427b8ced1482548dcc",
+			"urls": [
+				"bzz-raw://f264fbcd05169d1294ad4ef6c352e73a15139aa063f5710772a4b931c5278f33",
+				"dweb:/ipfs/QmXku7NWa225FaBLqZk6ecxo3meyA7GaYRpwtQtaUPQeYL"
+			]
+		}
+	},
+	"version": 1
+}

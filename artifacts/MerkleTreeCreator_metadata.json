@@ -1,0 +1,167 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ROOT",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "constructTree",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "root",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32[][]",
+						"name": "tree",
+						"type": "bytes32[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "memberIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32[][]",
+						"name": "tree",
+						"type": "bytes32[][]"
+					}
+				],
+				"name": "createProof",
+				"outputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "",
+						"type": "bytes32[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "hasClaimed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setRoot",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testRoot",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "leaf",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32[]",
+						"name": "siblings",
+						"type": "bytes32[]"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructTree()": {
+					"notice": "1. get the height of tree: members /2 till 1 2. create nested tree with height 3. fill up each of the nested arrays. tree[0]: hashed leaves "
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testMerkle.sol": "MerkleTreeCreator"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testMerkle.sol": {
+			"keccak256": "0x6d1d8850ac87bb4594aa574b9952dc6621cb49badba7d50185bfc8f41d76900b",
+			"urls": [
+				"bzz-raw://bbdc6aaaf9fb017d709e2f988141fe85448530b869357968233073add7f47229",
+				"dweb:/ipfs/QmfJp5XWCiNhFMLuKTBuwK39UA9FxLU5cmywVdWF43Qh7Q"
+			]
+		}
+	},
+	"version": 1
+}
