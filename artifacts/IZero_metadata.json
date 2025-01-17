@@ -1,26 +1,21 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "Invalid",
-				"type": "error"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "distributionId",
 						"type": "uint256"
 					}
 				],
-				"name": "isOwnerOf",
+				"name": "deposit",
 				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -37,9 +32,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testStaticCall.sol": "Callee"
+			"testCallAddressZero.sol": "IZero"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -51,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"testStaticCall.sol": {
-			"keccak256": "0x5023a806cbaaa88ec2648d27d7105d24b9481853c7f5f893cf974da44d7d115b",
+		"testCallAddressZero.sol": {
+			"keccak256": "0x05a790ddd4798c50f527a7d87fb9b03cfcb133cd70bf6e5014f8641f8ed1ad8e",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://279b2925f477fb7c41c6592914ac191f313b2824fadd2db1e94b2f265df45573",
-				"dweb:/ipfs/QmaVLAgfMf7tcwDEM5XhJ9moTVnZ3m6RtTGDBi5izWspun"
+				"bzz-raw://8426c7452d031a422c81a7573d208fb337541e027a5bf861e3e6432eb2ced87d",
+				"dweb:/ipfs/QmaqUdFEF8mqRmmRJ2RN6kGLY3bThMvznB2oPFGz3XWbSk"
 			]
 		}
 	},

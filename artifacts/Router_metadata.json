@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -22,6 +22,19 @@
 					}
 				],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -56,11 +69,6 @@
 						"internalType": "uint256",
 						"name": "_num",
 						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "onBehalfOf",
-						"type": "address"
 					}
 				],
 				"name": "setVars",
@@ -77,6 +85,19 @@
 					}
 				],
 				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "test2WBatch",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -102,7 +123,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"TESTROUTER2.sol": "Router"
+			"TESTrOUTER.sol": "Router"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -116,12 +137,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"TESTROUTER2.sol": {
-			"keccak256": "0xee192813bbffa99984f6751647d1781fb869d548773167c4e2a057028ffa58b9",
+		"TESTrOUTER.sol": {
+			"keccak256": "0xdb6c71054ef2b45cd3379ac7b437930e09d38f9afcbc12d82ee1bb54c6fd1003",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c580aa8043601a18a41bcdc6c79e20823afef5cc217f2442ac3dee6b8c0f4dd4",
-				"dweb:/ipfs/QmTFVkH3MByfpHHcwBU8VmSxk5FGPvmicEYYBoQ2r328sd"
+				"bzz-raw://5d179c808b64e426609b77db25aaf597e117d16a7733fd872da9bdbff39a9e98",
+				"dweb:/ipfs/QmPDmrqdZx79jsBww1Q3Dq2f6P8ppBg6jbQpKFjkq9jTvf"
 			]
 		}
 	},

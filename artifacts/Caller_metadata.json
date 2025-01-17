@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.27+commit.40a35a09"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,46 +8,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					}
-				],
-				"name": "call",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "mod",
-				"outputs": [
-					{
 						"internalType": "address",
-						"name": "",
+						"name": "module",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "m",
-						"type": "address"
-					}
-				],
-				"name": "set",
+				"name": "sCall",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -64,9 +32,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testInterface.sol": "Caller"
+			"testStaticCall.sol": "Caller"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -78,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"testInterface.sol": {
-			"keccak256": "0x390a6d9d8f26c601ed42a69fab3495ddd770b9b43f21b28a5efd1d0e623d21b2",
-			"license": "MIT",
+		"testStaticCall.sol": {
+			"keccak256": "0x5023a806cbaaa88ec2648d27d7105d24b9481853c7f5f893cf974da44d7d115b",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://5544a840eb84e3e0ca2fd42385c6da42c8b8d60e46c0f87c8d2dab9fc4d713b7",
-				"dweb:/ipfs/QmZUm8hcFdEL5WmLuor6jCheHmRzannsuHqR1WkPRweWVt"
+				"bzz-raw://279b2925f477fb7c41c6592914ac191f313b2824fadd2db1e94b2f265df45573",
+				"dweb:/ipfs/QmaVLAgfMf7tcwDEM5XhJ9moTVnZ3m6RtTGDBi5izWspun"
 			]
 		}
 	},

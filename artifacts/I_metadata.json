@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,9 +18,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testLinkedLibrary.sol": "DataTypes"
+			"testCallAddressZero.sol": "I"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -32,11 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"testLinkedLibrary.sol": {
-			"keccak256": "0x08b7979a4f6d94d21fdd9e2b3f907fac8b88f376a0b64502eef688229d6a823d",
+		"testCallAddressZero.sol": {
+			"keccak256": "0x9928ec9089bbd7550b463ea10809eab7adf52beb56d90124a908c5bf9a3a8d1c",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://b971ee6aafb4f553b4ea4147037b413d13b29c177e241127f64a73a32d6e2a49",
-				"dweb:/ipfs/QmXsu4MTxR7tShpzU9kBSinM7HxWBXcTMLi6yktTGxk8UN"
+				"bzz-raw://2c7d8cb8c8397e996c020c17cf0123b767a209ad54f3b3c53acc4b7a5302c734",
+				"dweb:/ipfs/Qmc1hvHscMU6qfv5XrdZAc5W1KyoycQCK1pompzdJ8Ct5v"
 			]
 		}
 	},

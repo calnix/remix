@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testLinkedLibrary.sol": "DataTypes"
+			"testLinkedLibrary.sol": "PoolLogic"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

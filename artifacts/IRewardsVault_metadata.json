@@ -7,20 +7,14 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "increment",
+				"name": "srcEid",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -39,7 +33,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testCallAddressZero.sol": "Counter"
+			"testCallAddressZero.sol": "IRewardsVault"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -54,11 +48,11 @@
 	},
 	"sources": {
 		"testCallAddressZero.sol": {
-			"keccak256": "0x99cad044552fa2d22b6a4a5f696d5fab9c26f16a5dd3a20caa74f592ff65f4ff",
+			"keccak256": "0xd35eb1fdb298c952ef4e64c2bba74090ae48447fd0f98bc0a4bec4f98cf144b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b01cb9ee9701dd455154a08bbb2251b78839b3257cc5aa32ca3c9a56775acd41",
-				"dweb:/ipfs/QmXM2YDpXAJf2rkYeT3iA3b7ZihNbCkBnxasJkGEXv6VA8"
+				"bzz-raw://41245f1867d2d4b31188fd0414d78c860895a2a230f9aca9f5da652200729d51",
+				"dweb:/ipfs/QmWdFJAeGdcJp8fhfU5Z8aDR5dzHwz9CuXMtJNPFXR35n3"
 			]
 		}
 	},
