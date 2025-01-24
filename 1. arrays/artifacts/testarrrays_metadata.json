@@ -8,27 +8,25 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "uint256[]",
+						"name": "originalArr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arrToRemove",
+						"type": "uint256[]"
 					}
 				],
-				"name": "_authorizeUpgrade",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "time",
+				"name": "_removeFromArray",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256"
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testUUPS.sol": "Test"
+			"1. arrays/testRemoveArray.sol": "testarrrays"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +57,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"testUUPS.sol": {
-			"keccak256": "0x1b375f3c2a15b53b207eb4418eff969f5b75c4acd4fc6384aa7bf4e2c7886978",
-			"license": "GPL-3.0",
+		"1. arrays/testRemoveArray.sol": {
+			"keccak256": "0x49c0665425bf4e707152ba6654b8e4b742a66dfa532c6a9bbbd25d166914de99",
 			"urls": [
-				"bzz-raw://ac5844d80e965076237b14ec1fae930dd46e89709f97648a32df926f1f25be2a",
-				"dweb:/ipfs/QmQouy2LYgFZdgWfbnpxsXs6jDHCwtA2NAFabyNn5Nk2gg"
+				"bzz-raw://44b24b2187a5c1beb28ff423453546ee6e3b4c3c3e8609553db98494c056aab7",
+				"dweb:/ipfs/QmWFiS3K8fwebh2q6W7wx5pzDVFESA4f7Y5J1784Yog16v"
 			]
 		}
 	},

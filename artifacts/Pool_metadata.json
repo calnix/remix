@@ -7,25 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "REWARDS_VAULT",
-				"outputs": [
-					{
-						"internalType": "contract IRewardsVault",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sym",
+				"name": "gasAfter_msgSender",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -38,9 +20,101 @@
 			},
 			{
 				"inputs": [],
-				"name": "test",
+				"name": "gasAfter_user",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gasBefore_msgSender",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gasBefore_user",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isSame",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stake",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testSender1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testSender2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "user",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -57,7 +131,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testCallAddressZero.sol": "Pool"
+			"testLinkedLibrary.sol": "Pool"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -71,12 +145,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"testCallAddressZero.sol": {
-			"keccak256": "0xd35eb1fdb298c952ef4e64c2bba74090ae48447fd0f98bc0a4bec4f98cf144b1",
-			"license": "MIT",
+		"testLinkedLibrary.sol": {
+			"keccak256": "0x08b7979a4f6d94d21fdd9e2b3f907fac8b88f376a0b64502eef688229d6a823d",
 			"urls": [
-				"bzz-raw://41245f1867d2d4b31188fd0414d78c860895a2a230f9aca9f5da652200729d51",
-				"dweb:/ipfs/QmWdFJAeGdcJp8fhfU5Z8aDR5dzHwz9CuXMtJNPFXR35n3"
+				"bzz-raw://b971ee6aafb4f553b4ea4147037b413d13b29c177e241127f64a73a32d6e2a49",
+				"dweb:/ipfs/QmXsu4MTxR7tShpzU9kBSinM7HxWBXcTMLi6yktTGxk8UN"
 			]
 		}
 	},
