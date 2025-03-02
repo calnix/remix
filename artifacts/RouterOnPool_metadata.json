@@ -10,9 +10,9 @@
 				"name": "cast",
 				"outputs": [
 					{
-						"internalType": "uint128",
+						"internalType": "bytes32",
 						"name": "",
-						"type": "uint128"
+						"type": "bytes32"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"testCasting.sol": {
-			"keccak256": "0x45bab8fd8855a8abddc0d06e7e396013a658b9e794d05149e725c4b1ffc3d14b",
+			"keccak256": "0xc9514d41df75e1ab76cb808467337adcc46ffe301c5d32624c7e240b719f9d2e",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://ea9c65a4dd93aa9bbe88ed3d5c7af0d462d731a75c749c814ac9d1068f23e3ae",
-				"dweb:/ipfs/QmSsmctHznfameRogBnWSWUvVawC49d1nZYcEmkD45f3sK"
+				"bzz-raw://6f6a0b684781d2e47e105d7cc83e69bbe306aad2aeace22644c5f3329feb4771",
+				"dweb:/ipfs/QmbGcw3wXenVDbgpAzw6tf5HNXxvQdHvkRmCYgFkJUqWc7"
 			]
 		}
 	},
