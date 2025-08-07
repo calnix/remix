@@ -17,6 +17,12 @@ contract Encoding {
         return (owner, output);
 
     }
+
+
+    function addressToBytes32(address addr) public pure returns(bytes32) {
+        return bytes32(uint256(uint160(addr)));
+    }
+
 }
 
-
+    

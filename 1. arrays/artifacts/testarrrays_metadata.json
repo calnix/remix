@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,16 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256[]",
-						"name": "originalArr",
+						"name": "arr1",
 						"type": "uint256[]"
 					},
 					{
 						"internalType": "uint256[]",
-						"name": "arrToRemove",
+						"name": "arr2",
 						"type": "uint256[]"
 					}
 				],
-				"name": "_removeFromArray",
+				"name": "_concatArrays",
 				"outputs": [
 					{
 						"internalType": "uint256[]",
@@ -26,7 +26,7 @@
 						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -43,9 +43,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"1. arrays/testRemoveArray.sol": "testarrrays"
+			"1. arrays/testconcatarray.sol": "testarrrays"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -57,11 +57,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"1. arrays/testRemoveArray.sol": {
-			"keccak256": "0x49c0665425bf4e707152ba6654b8e4b742a66dfa532c6a9bbbd25d166914de99",
+		"1. arrays/testconcatarray.sol": {
+			"keccak256": "0xc1efd4c9450862e99d37f280adb057c034e64cbc1c3ad2aa9a616ad2e464976f",
 			"urls": [
-				"bzz-raw://44b24b2187a5c1beb28ff423453546ee6e3b4c3c3e8609553db98494c056aab7",
-				"dweb:/ipfs/QmWFiS3K8fwebh2q6W7wx5pzDVFESA4f7Y5J1784Yog16v"
+				"bzz-raw://a683de63c531a1ebc36396731b7c09eca5bfbcda0d0e27520d6adea6b3b41846",
+				"dweb:/ipfs/QmPqDUVNWyPot6bKwVzd2wREYcWLBHptSW7RG2x9m1wUUa"
 			]
 		}
 	},

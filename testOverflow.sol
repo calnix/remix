@@ -3,19 +3,21 @@ pragma solidity ^0.8.20;
 
 contract A {
 
+    uint256 a = 1;
 
-    function test(uint256 distributionStartTime, uint256 distributionEndTime, uint256 emissionPerSecond) public returns(uint256) {
-        uint256 mul = (distributionEndTime - distributionStartTime) * emissionPerSecond;
+
+    function testUnderflow() public returns(uint256) {
+        uint256 b = 3;
+
+        return a - b;
     }
 
 
-    function test2(uint256 nftFeeFactor, uint256 creatorFeeFactor, uint256 realmPointsFeeFactor) external pure returns(int256) {
-        oldCreatorFeeFactor = 1000;
 
-        if(totalFeeFactor > 5000) revert();     //e.g.: 50% = 5000/10_000 = 5000/PRECISION_BASE
+    function testUnder() public view returns(uint256)  {
 
-        if(creatorFeeFactor > oldCreatorFeeFactor) revert();
-
-        //return type(int256).max;
+        uint256 totalBoostedTokensDelta = (10 * 0) / 10_000;
+        return  totalBoostedTokensDelta;
     }
+
 }

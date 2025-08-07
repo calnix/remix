@@ -1,31 +1,107 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "epoch",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "poolId",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "delegate",
+						"type": "address"
+					}
+				],
+				"name": "delegateEpochPoolData",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "totalVotesSpent",
+						"type": "uint128"
+					},
+					{
+						"internalType": "uint128",
+						"name": "totalRewards",
+						"type": "uint128"
+					},
+					{
+						"internalType": "uint128",
+						"name": "totalClaimed",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "isDelegate",
+						"type": "bool"
+					}
+				],
+				"name": "test",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "_authorizeUpgrade",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "time",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "epoch",
 						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "poolId",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "usersEpochPoolData",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "totalVotesSpent",
+						"type": "uint128"
+					},
+					{
+						"internalType": "uint128",
+						"name": "totalRewards",
+						"type": "uint128"
+					},
+					{
+						"internalType": "uint128",
+						"name": "totalClaimed",
+						"type": "uint128"
 					}
 				],
 				"stateMutability": "view",
@@ -45,9 +121,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testUUPS.sol": "Test"
+			"testMappingPointers.sol": "Test"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -59,12 +135,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"testUUPS.sol": {
-			"keccak256": "0x1b375f3c2a15b53b207eb4418eff969f5b75c4acd4fc6384aa7bf4e2c7886978",
+		"testMappingPointers.sol": {
+			"keccak256": "0x91b1092a2c08ff243289e517c775471f33b7f72523148cfb243e2f31429996cb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ac5844d80e965076237b14ec1fae930dd46e89709f97648a32df926f1f25be2a",
-				"dweb:/ipfs/QmQouy2LYgFZdgWfbnpxsXs6jDHCwtA2NAFabyNn5Nk2gg"
+				"bzz-raw://8aa652eb218573d8d045b3f85f6c84eef9e4fe0779a68071d873522e8e72ca5c",
+				"dweb:/ipfs/QmTmGren8RT8RcXbsis7sS4UuKRLHJBS4bVt5MAcCjsygT"
 			]
 		}
 	},

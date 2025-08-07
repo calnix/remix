@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "delegate",
+						"type": "address"
+					}
+				],
+				"name": "delegateLastUpdatedTimestamp",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "lastUpdatedTimestamp",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "isDelegate",
+						"type": "bool"
+					}
+				],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "userLastUpdatedTimestamp",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "lastUpdatedTimestamp",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"veToken/testMappingPointers.sol": "MapPointers"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"veToken/testMappingPointers.sol": {
+			"keccak256": "0xba90e2e73d7b6e770c49ad5fe156463421c3f0c102afae100af3870c31e4038f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c37befa655aa59611f13ff7b4dd858ba35d0a38a800f79f05d7ac855f6b184f8",
+				"dweb:/ipfs/QmesMDF2Ta6ksYnPrmCkYXXte5Cx2UhrKjdw7ACjQLF3Sz"
+			]
+		}
+	},
+	"version": 1
+}

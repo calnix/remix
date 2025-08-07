@@ -1,21 +1,16 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "REWARDS_VAULT",
+				"name": "caller",
 				"outputs": [
 					{
-						"internalType": "contract IRewardsVault",
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
@@ -25,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "sym",
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -37,10 +32,16 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "test",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -57,9 +58,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testCallAddressZero.sol": "Pool"
+			"TESTrOUTER.sol": "Pool"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -71,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"testCallAddressZero.sol": {
-			"keccak256": "0xd35eb1fdb298c952ef4e64c2bba74090ae48447fd0f98bc0a4bec4f98cf144b1",
-			"license": "MIT",
+		"TESTrOUTER.sol": {
+			"keccak256": "0xdb6c71054ef2b45cd3379ac7b437930e09d38f9afcbc12d82ee1bb54c6fd1003",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://41245f1867d2d4b31188fd0414d78c860895a2a230f9aca9f5da652200729d51",
-				"dweb:/ipfs/QmWdFJAeGdcJp8fhfU5Z8aDR5dzHwz9CuXMtJNPFXR35n3"
+				"bzz-raw://5d179c808b64e426609b77db25aaf597e117d16a7733fd872da9bdbff39a9e98",
+				"dweb:/ipfs/QmPDmrqdZx79jsBww1Q3Dq2f6P8ppBg6jbQpKFjkq9jTvf"
 			]
 		}
 	},

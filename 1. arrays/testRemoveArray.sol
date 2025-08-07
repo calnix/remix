@@ -28,4 +28,32 @@ contract testarrrays {
 
         return resArr;
     }
+
+    function dupArrayCheck1(uint256[] memory tokenIds) public pure returns (uint256[] memory) {
+        uint256 incomingNfts = tokenIds.length;
+
+        if (incomingNfts > 1) {
+            for (uint256 i; i < incomingNfts - 1; ++i) {
+                for (uint256 j = i + 1; j < incomingNfts; ++j) {
+
+                    if(tokenIds[i] == tokenIds[j]) revert();
+                }
+            }
+        }
+    }
+
+    function dupArrayCheck2(uint256[] memory tokenIds) public pure returns (uint256[] memory) {
+        uint256 incomingNfts = tokenIds.length;
+
+        if(incomingNfts > 1) {
+            for(uint256 i; i < incomingNfts; ++i) {
+                for(uint256 j; j < incomingNfts; ++j) {
+                   
+                    if(i == j) continue; // comparing same ele
+                   
+                    if(tokenIds[i] == tokenIds[j]) revert();
+                }
+            }
+        }
+    }
 }

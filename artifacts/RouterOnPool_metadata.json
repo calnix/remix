@@ -1,21 +1,27 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "cast",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "bytes32",
-						"name": "",
-						"type": "bytes32"
+						"internalType": "bytes[]",
+						"name": "calls",
+						"type": "bytes[]"
 					}
 				],
-				"stateMutability": "view",
+				"name": "batch",
+				"outputs": [
+					{
+						"internalType": "bytes[]",
+						"name": "results",
+						"type": "bytes[]"
+					}
+				],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -30,11 +36,44 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"batch(bytes[])": {
+					"details": "Allows batched call to self (this contract).",
+					"params": {
+						"calls": "An array of inputs for each call."
+					}
+				}
+			},
 			"version": 1
 		},
 		"userdoc": {
@@ -45,9 +84,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testCasting.sol": "RouterOnPool"
+			"testbatch.sol": "RouterOnPool"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -59,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"testCasting.sol": {
-			"keccak256": "0xc9514d41df75e1ab76cb808467337adcc46ffe301c5d32624c7e240b719f9d2e",
+		"testbatch.sol": {
+			"keccak256": "0x3b9ccdc91f3a0d72c8dfe9de33da384f3fe1d6fb293662cd85938584cac53429",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://6f6a0b684781d2e47e105d7cc83e69bbe306aad2aeace22644c5f3329feb4771",
-				"dweb:/ipfs/QmbGcw3wXenVDbgpAzw6tf5HNXxvQdHvkRmCYgFkJUqWc7"
+				"bzz-raw://efb213decb7645789a763f743f8975da45bd7fe59669366348fbb633cd70ffd6",
+				"dweb:/ipfs/QmepraksSdrdGVs5rYTY2XFQd1vzj3aXaCG5a4DqFF8L8b"
 			]
 		}
 	},

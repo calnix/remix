@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "claimMultiple",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testNested",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1. arrays/testArrayLength.sol": "arrays"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1. arrays/testArrayLength.sol": {
+			"keccak256": "0x171f696ef19378268ce16e83dd4b3f3d2c2a2fba97cdb374f59c465e12720a2f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://32f2c1a53d95a7ff1a4715463b0d3be7e8947055b966bb1b4915a76546e1f8dc",
+				"dweb:/ipfs/Qmeb7fE1KkyZLyQXymSdZ5o7qCHDXZuUD2PQwLmDU3cgQ8"
+			]
+		}
+	},
+	"version": 1
+}

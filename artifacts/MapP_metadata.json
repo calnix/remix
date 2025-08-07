@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "userHistory",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "bias",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "slope",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"veToken/testMappingPointers.sol": "MapP"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"veToken/testMappingPointers.sol": {
+			"keccak256": "0x1451f3c1556504da2a6fe14fa2c5812acdc639808362d0b8e598033cd6b86265",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://128c67e24d5f2dc831a47e1ae9715915dcef32e86dc03d572a3061ea6d492cc1",
+				"dweb:/ipfs/QmQGzysSFwbg6cc3EbCoNKiYnDKAZccw8wTidvKNRnqNz8"
+			]
+		}
+	},
+	"version": 1
+}

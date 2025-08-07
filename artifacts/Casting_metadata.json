@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testCastingGasCost.sol": "Casting"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testCastingGasCost.sol": {
+			"keccak256": "0x6b24cd1581422a96f7b26aa87c671d219eceffb5d5220c40b40224cf0a61ab1d",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://8f67eeb381afb061eb47493b740f371179cf01291b28cf8842ba5b6bd8539114",
+				"dweb:/ipfs/QmWHHLd7ctPSvM9BcTtF6oyTFrCAdDGuA4DojN2wHJoemX"
+			]
+		}
+	},
+	"version": 1
+}

@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "addressToBytes32",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "testEncode",
 				"outputs": [
@@ -52,11 +71,11 @@
 	},
 	"sources": {
 		"testEncoding.sol": {
-			"keccak256": "0xa826248f10dd94a26f1ac4b1440bbc961b2befde685e98f70c314cabb86a74fd",
+			"keccak256": "0x0ed1e1f5ecb71e848d1e5fb1a5c4d69e07ff0346df142e704efbbdaccacd055b",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://0b0e7ec7cc4c97c6ed1751926f34648987e78215d4d245e9cbe26fda4577984e",
-				"dweb:/ipfs/QmZUFBEqyKXqcc3uLd8LDK1UpVknRj1VjzWo7vYq6dK5wg"
+				"bzz-raw://1648b4956c8a06cde86882744e6b3ffb1f8e90f46b20588c997e67c4e174012e",
+				"dweb:/ipfs/QmXQCitvAqj2rfJa54rm59kYNCiE2EW3zp5aYZ39qSvKjr"
 			]
 		}
 	},
